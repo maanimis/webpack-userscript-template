@@ -11,7 +11,7 @@ module.exports = {
     cn: "中文名",
     en: "english name",
   },
-  namespace: "https://trim21.me/",
+  namespace: "Violentmonkey Scripts",
   version: version,
   author: author,
   source: repository.url,
