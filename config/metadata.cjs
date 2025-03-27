@@ -1,4 +1,5 @@
 const {
+  name,
   author,
   dependencies,
   repository,
@@ -8,7 +9,7 @@ const {
 
 module.exports = {
   name: {
-    $: "webpack-userscript-template",
+    $: name,
   },
   namespace: "Violentmonkey Scripts",
   version: version,
