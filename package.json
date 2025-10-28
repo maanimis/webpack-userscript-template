@@ -15,7 +15,8 @@
     "compile": "npm run clear && tsc",
     "analize": "cross-env npm_config_report=true npm run build",
     "build": "webpack --config config/webpack.config.prod.cjs",
-    "dev": "webpack --config config/webpack.config.dev.cjs"
+    "dev": "webpack --config config/webpack.config.dev.cjs",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
