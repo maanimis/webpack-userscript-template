@@ -14,7 +14,7 @@ module.exports = {
   namespace: "Violentmonkey Scripts",
   version: version,
   author: author,
-  description,
+  description:description,
   source: repository.url,
   // 'license': 'MIT',
   match: ["*://*/"],

@@ -4,22 +4,20 @@
     "checkJs": false,
     "outDir": "dist",
     "strict": true,
-    "rootDir": "src",
     "rewriteRelativeImportExtensions": true,
     "removeComments": true,
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
 
+    "noImplicitAny": true,
     "target": "ES2020",
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "declaration": false,
     "allowSyntheticDefaultImports": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
     "skipLibCheck": true,
     "lib": ["DOM", "ES6", "DOM.Iterable", "ScriptHost", "ESNext"]
   },
-  "include": ["src/**/*"]
+  "include": ["src", "tests"]
 }
