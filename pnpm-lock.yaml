@@ -14,6 +14,9 @@ importers:
       jquery:
         specifier: 3.7.1
         version: 3.7.1
+      yoctoqueue2:
+        specifier: 2.0.0
+        version: 2.0.0
     devDependencies:
       '@babel/core':
         specifier: 7.28.5
@@ -2946,6 +2949,10 @@ packages:
   yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+
+  yoctoqueue2@2.0.0:
+    resolution: {integrity: sha512-iLcZc6IXCDnWOcFEl9VFnQWOa516JLMKnBzemfRC5rOJfQHAWy44nMSbToDgjWs3ZszL5tGa4n3h2zWYXkOLsg==}
+    engines: {node: '>=12.20'}
 
 snapshots:
 
@@ -6126,3 +6133,5 @@ snapshots:
       yargs-parser: 21.1.1
 
   yocto-queue@0.1.0: {}
+
+  yoctoqueue2@2.0.0: {}

@@ -62,6 +62,7 @@
   },
   "dependencies": {
     "debug": "4.4.3",
-    "jquery": "3.7.1"
+    "jquery": "3.7.1",
+    "yoctoqueue2": "2.0.0"
   }
 }
