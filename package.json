@@ -58,11 +58,11 @@
     "webpack-cli": "6.0.1",
     "webpack-livereload-plugin": "3.0.2",
     "webpack-merge": "6.0.1",
-    "webpack-sources": "3.3.3"
+    "webpack-sources": "3.3.3",
+    "yocto-queue": "1.2.2"
   },
   "dependencies": {
     "debug": "4.4.3",
-    "jquery": "3.7.1",
-    "yoctoqueue2": "2.0.0"
+    "jquery": "3.7.1"
   }
 }

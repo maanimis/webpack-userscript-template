@@ -1,5 +1,5 @@
 import debug from "debug";
-import Queue from "yoctoqueue2";
+import Queue from "yocto-queue";
 import { DebugModeHandler } from "./debug-handler";
 import { MenuKey, menuCommandService } from "./menu";
 import { urlHandler } from "./url-handler";
